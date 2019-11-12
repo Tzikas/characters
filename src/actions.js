@@ -9,16 +9,16 @@ import axios from 'axios';
 
 
     console.log(
-        await axios.get('http://localhost:8080/characters')
+        await axios.get('/characters')
     )
 
-    await axios.post('http://localhost:8080/characters', {
+    await axios.post('/characters', {
         cool:'beans'
     })
 
 
     console.log(
-        await axios.get('http://localhost:8080/characters')
+        await axios.get('/characters')
     )
 
 

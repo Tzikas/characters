@@ -9,16 +9,16 @@ import axios from 'axios';
 
 
     console.log(
-        await axios.get('/characters')
+        await axios.get('https://octhack.herokuapp.com/posts')
     )
 
-    await axios.post('/characters', {
-        cool:'beans'
+    await axios.post('https://octhack.herokuapp.com/posts', {
+        cool:'beans???'
     })
 
 
     console.log(
-        await axios.get('/characters')
+        await axios.get('https://octhack.herokuapp.com/posts')
     )
 
 
